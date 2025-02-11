@@ -1,0 +1,101 @@
+
+/* Entire Page Styling */
+body {
+    background-color: lightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: .5in;
+}
+
+
+/* Centers Entire Body */
+.container {
+    text-align: center;
+}
+
+#record {
+    font-size: 20px;
+}
+
+/* Table */
+
+/* Format Table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Header Background and Text Colors */
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Center Aligns Entire Table, padding=SpaceBetweenRows */
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+/* Alternates Row Colors */
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+
+/* pink line divider */
+
+hr.headerLine {
+    border: 3px solid hotpink;
+    border-radius: 10px;
+}
+
+/* text boxes */
+
+.blurb {
+    text-align: left;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: mediumseagreen;
+}
+
+.simpleblurb {
+    text-align: left;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: hotpink;
+}
+
+/* Hide by default, then make visible when class is added */
+.simpleblurb {
+    display: none;  
+}
+
+
+.simpleblurb.visible {
+    display: block; 
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+.button1 {background-color: #04AA6D;} /* Green */
